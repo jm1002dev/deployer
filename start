@@ -9,6 +9,8 @@ _other_installs () {
 apt update && apt upgrade -y
 apt install git -y
 _other_installs
+apt install npm -y
+apt install nodejs -y
 git clone $REPO_URL Github_Repo
 cd Github_Repo
 npm install
